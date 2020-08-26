@@ -1,0 +1,126 @@
+select[name="rcrs-country"],
+select[name="rcrs-region"],
+input.formStyle{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button.StripeCheckout>span{
+    
+    background-color: #28a745 !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-image: none !important;
+    background: none;
+    
+}
+button.StripeCheckout{
+    background-image: none !important;
+    background: none;
+    background-color: #28a745 !important;
+    display: block;
+    border-color: none !important;
+    box-shadow: none !important;
+    width: 100%;
+}
+
+.scrollable{
+    height: 100%;
+    overflow-y: auto;
+}
+
+button.StripeCheckout{
+    margin-bottom: 17px;
+}
+
+.shoppingBasket{
+    height: 500px;
+    border:1px #000 solid;
+    border-radius: 10px;
+    background-color: #333B3F;
+    padding: 20px 20px 40px;
+    box-shadow: 0 0 10px;
+
+}
+
+.fullBasket{
+    height:95%;
+    padding:0px;
+
+}
+
+.greenText{
+    color: #28a745;
+}
+
+.greenBox{
+    border-radius: 10px;
+    background-color: #28a745;
+    margin: 10px 0px;
+    color:#fff;
+    text-align: center;
+}
+
+.whiteText{
+    color:#fff;
+}
+
+input[type=number].amountBox::-webkit-inner-spin-button, 
+    input[type=number].amountBox::-webkit-outer-spin-button {  
+
+   opacity: 1;
+
+}
+.itemRow{
+    margin-bottom: 5px;
+}
+
+.itemSection{
+    padding-top:20px;
+    padding-bottom: 10px;
+    border: 1px #000 solid;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.itemsBox{
+    height: 75%;
+    overflow-y: auto;
+    
+}
+.paymentButton{
+    margin-top:50px;
+}
+.shipmentDiv{
+    margin-top:20px;
+}
+
+.inputGroup{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.paymentTitle{
+    margin-bottom:20px;
+}
+.disabledSection{
+    pointer-events: none;
+    opacity: 0.4;
+}
+.emptyCart{
+    text-align: center;
+    height:85%;
+    margin:auto;
+    padding:60px 50px;
+    background-color: #fff;
+    border-radius: 10px;
+}

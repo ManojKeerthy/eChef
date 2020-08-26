@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-color: #f6f6f6;
+    min-height: 90%;
+}
+html {
+    height: 100%;
+}
+
+.content{
+    padding:50px 40px 120px;
+    overflow-y: auto;
+    background-color: #f6f6f6;
+    min-height:400px;
+
+}
+
+.bigCol{
+    width:70%;
+}
+
+.smallCol{
+    width:30%;
+}
+
+.whiteFont{
+    color:#fff;
+}
+
+.boldFont{
+    font-weight: bold;
+}
+
+.InfiniteCarouselSlide div{
+    margin: 15px 0;
+    text-align: center;
+
+}
+
+
+.InfiniteCarouselSlide div img{
+    width: 50%;
+
+}
+
+.InfiniteCarouselSlide h3{
+    margin-top: 8px;
+    font-size: 95%;
+}
+
+
+.InfiniteCarousel button:focus {
+    outline: 0;
+    border: none;
+}
+
+.section{
+    margin-bottom:100px;
+    margin-top:50px;
+}
+
+.teamSection{
+    margin-bottom:40px;
+}
