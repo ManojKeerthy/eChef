@@ -8,7 +8,7 @@ Both for the back end and front end application check
 
 For front-end go here:
 
-[Front-end](https://github.com/ahmadwardak/echef-frontend)
+[Front-end](https://github.com/ManojKeerthy/eChef/tree/master/echef-frontend-master)
 
 Just for the backend application:
 
